@@ -1,0 +1,50 @@
+.product-card {
+  border-radius: 0.6rem;
+  border: 1px solid rgb(97, 97, 97);
+  padding: 1rem;
+
+  > hr {
+    border-color: rgb(97, 97, 97);
+  }
+}
+
+.flight-details {
+  display: flex;
+  text-align: start;
+  justify-content: space-between;
+
+  & h1 {
+    font-size: 1rem;
+    margin-top: 0;
+  }
+
+  & h2 {
+    font-size: 0.8rem;
+    max-width: 35ch;
+    font-weight: 400;
+    color: rgb(155, 155, 155);
+  }
+
+  > p {
+    display: flex;
+    align-items: start;
+    font-weight: 600;
+    margin: 0;
+  }
+}
+
+.flight-dates {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding: 0.5rem 0;
+
+  > p {
+    margin: 0;
+    font-size: 0.8rem;
+    display: flex;
+    gap: 0.4rem;
+    align-items: center;
+  }
+}
