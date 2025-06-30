@@ -11,7 +11,7 @@ function useCreatePreference() {
 
     try {
       const response = await fetch(
-        "http://localhost:3010/api/payment/create-preference",
+        `${process.env.REACT_APP_API_URL}/api/payment/create-preference`,
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
